@@ -962,4 +962,4 @@ A.requestAnimationFrame(ma)
 document.onkeypress=handleKeyboard;
 
 console.log("To type: type message and hit enter\nFor marker mode: press *\nTo push all buttons on the map: hold ~\nor to toggle autoPress click 1\nTo draw your aura press -\nTo draw an dickbutt press +\nToggle the motion cheat with \\\nToggle motion with /")
-}, 250)
+}, 250);
