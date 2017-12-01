@@ -23,5 +23,5 @@ setTimeout(function(){
             hundred[i].children[8].children[0].classList.remove('checked');
             hundred[i].children[8].children[0].click();
         }
-    }
+    };
 }, 2000);
