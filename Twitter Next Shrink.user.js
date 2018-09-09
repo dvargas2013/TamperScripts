@@ -10,5 +10,13 @@
 
 setTimeout(function(){
     'use strict';
-    document.styleSheets[0].addRule('div.GalleryNav--next','width: 33%');
+    for (var i=0; i<document.styleSheets.length; i++) {
+        try {
+            document.styleSheets[i].addRule('div.GalleryNav--next','width: 33%');
+            console.log(""+i+" worked :thumbsup:");
+            break;
+        } catch (e) {
+            console.log(""+i+" didnt work >n>");
+        }
+    }
 }, 2000);
